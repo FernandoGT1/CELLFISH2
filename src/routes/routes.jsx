@@ -24,10 +24,7 @@ export const routes = createBrowserRouter([
                 path: "/Login",
                 element: <Login />
             },
-            {
-                path: "/CatalogoProductos",
-                element: <CatalogoProductos />
-            },
+
             {
                 parth:"/",
                 element: <Footer />        

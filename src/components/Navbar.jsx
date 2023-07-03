@@ -15,7 +15,10 @@ export default function Navbar() {
                 </div>
                 <div className="item-center">
                     <ul className="flex flex-row gap-8">
+                        <Link to="/catalogoProductos">
                         <li>Productos</li>
+                        </Link>
+
                         <li>Ofertas</li>
                         <li>Nosotros</li>
                         <li>
@@ -36,7 +39,9 @@ export default function Navbar() {
                     </div>
                     <div className="flex flex-row items-center px-4 gap-4">
                         <box-icon name="cart"></box-icon>
+                        <Link to="/Login">
                         <box-icon name='user-circle' type='solid' ></box-icon>
+                        </Link>
                     </div>
                 </div>
             </div>

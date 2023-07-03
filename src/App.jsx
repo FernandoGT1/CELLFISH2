@@ -2,10 +2,11 @@ import { Link } from "react-router-dom";
 import Card from "./components/card";
 // import Navbar from "./componets/Navbar";
 import "boxicons";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 
 import Producto_multicard from "./components/Producto";
 import Producto_multicard2 from "./components/Producto2";
+
 
 
 

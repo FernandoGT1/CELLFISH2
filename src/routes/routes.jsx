@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import AcercaDe from "../components/acercade";
 import App from "../App";
 import Navbar from "../components/navbar";
+import Login from "../components/Login";
+import Footer from "../components/Footer";
+
 
 
 export const routes = createBrowserRouter([
@@ -11,12 +14,26 @@ export const routes = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <App />,
+                element: <App />
             },
             {
                 path: "/acercade",
-                element: <AcercaDe />,
+                element: <AcercaDe />
             },
+            {
+                path: "/Login",
+                element: <Login />
+            },
+            {
+                path: "/CatalogoProductos",
+                element: <CatalogoProductos />
+            },
+            {
+                parth:"/",
+                element: <Footer />        
+
+            },
+
         ],
     },
 ]);

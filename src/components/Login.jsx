@@ -1,10 +1,12 @@
 import React from 'react'
 import fondologin from '../assets/fondologin.jpg'
+import Footer from './Footer';
 
 
 
 export default function Login() {
     return (
+        <>
         <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full mt-12' >
             <div className='hidden sm:block'>
                 <img className='w-full h-full object-cover' src={fondologin}></img>
@@ -26,10 +28,8 @@ export default function Login() {
                     <button className='w-full my-5 py-2 bg-yellow-50 rounded-lg' >Entrar</button>
                 </form>
             </div>
-            
-        </div>
-        
-        
-
-    )
+        </div>    
+        <Footer></Footer>  
+        </>
+    );
 }

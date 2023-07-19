@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 export default function Footer() {
     return (
         <>
-        <footer className="footer p-10 bg-neutral text-neutral-content flex flex-row justify-between bg-[#5e5a54] z-[9999]">
+        <footer className="fixed bottom-0 w-full footer p-10 bg-neutral text-neutral-content flex flex-row justify-between bg-[#5e5a54] z-[9999] py-4">
             <div class="items-center flex flex-row justify-between gap-4">
                 <h2>CELLFISH</h2>
                 <h2>Copyright © 2023 </h2>
@@ -19,7 +19,6 @@ export default function Footer() {
 
         
         </footer>
-        <Outlet />
         </>
 
     );

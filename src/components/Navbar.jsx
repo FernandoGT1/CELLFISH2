@@ -15,12 +15,18 @@ export default function Navbar() {
                 </div>
                 <div className="item-center">
                     <ul className="flex flex-row gap-8">
-                        <Link to="/catalogoProductos">
+                        <Link to="/productos">
                         <li>Productos</li>
                         </Link>
 
+                        <Link to="/ofertas">
                         <li>Ofertas</li>
+                        </Link>
+
+                        <Link to="/nosotros">
                         <li>Nosotros</li>
+                        </Link>
+
                         <li>
                             <Link to="/acercade">
                                 <span className="text-black dark:text-white">Acerca de</span>
@@ -38,14 +44,16 @@ export default function Navbar() {
                         ></input>
                     </div>
                     <div className="flex flex-row items-center px-4 gap-4">
-                        <box-icon name="cart"></box-icon>
+                        {/* <box-icon name="cart"></box-icon> */}
                         <Link to="/Login">
                         <box-icon name='user-circle' type='solid' ></box-icon>
                         </Link>
                     </div>
                 </div>
             </div>
-            <Outlet />
+            <div className="mt-[64px]">
+  <Outlet />
+</div>
         </>
     );
 }

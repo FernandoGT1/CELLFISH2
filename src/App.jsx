@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Card from "./components/card";
+import Card from "./components/Card";
 // import Navbar from "./componets/Navbar";
 import "boxicons";
 import Footer from "./components/Footer";

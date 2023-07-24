@@ -1,5 +1,5 @@
-import Footer from "./Footer";
 import React from 'react';
+import Footer from './Footer';
 import Card from './Card';
 import fondologin from '../assets/fondologin.jpg';
 import Cargadores from '../assets/cargadores.jpg';
@@ -8,12 +8,10 @@ import Cables3 from '../assets/Cables3.jpg';
 
 
 
-
-const Ofertas = ({ backgroundImage, title }) => {
-    return (
+const Articulos = ({ backgroundImage, title }) => {
+  return (
     <>
-   
-   <div
+    <div
       className="w-full h-[50px] bg-cover bg-center mb-10 rounded-lg flex items-center justify-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
@@ -23,7 +21,7 @@ const Ofertas = ({ backgroundImage, title }) => {
 
 <div className="text-center">
           <h1 className="text-4xl font-bold">
-            Ofertas
+            Articulos
           </h1>
         </div>
       </div>
@@ -79,12 +77,9 @@ const Ofertas = ({ backgroundImage, title }) => {
 
       <h2 className="text-4xl font-bold text-black">{title}</h2>
     </div>
-
-
-
-    <Footer></Footer>
+    <Footer></Footer>  
     </>
-    )
-}
+  );
+};
 
-export default Ofertas ;
+export default Articulos ;

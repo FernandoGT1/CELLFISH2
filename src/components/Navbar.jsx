@@ -19,6 +19,10 @@ export default function Navbar() {
                         <li>Productos</li>
                         </Link>
 
+
+                        <li><Link to={"/Categorias"}><span className="text-black dark:text-white">Categorias</span></Link></li>
+
+
                         <Link to="/ofertas">
                         <li>Ofertas</li>
                         </Link>

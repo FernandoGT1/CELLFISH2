@@ -36,16 +36,7 @@ const CardCategorias = ({ backgroundImage, title }) => {
 
 
 
-            <Card
-                nombre="Artículos" // Ajustamos el nombre para la segunda tarjeta
-                imagen={fondologin} // Usamos la variable Articulos para la imagen
-              />
-
-            <Card
-                nombre="Artículos" // Ajustamos el nombre para la segunda tarjeta
-                imagen={fondologin} // Usamos la variable Articulos para la imagen
-              />
-
+            
 
           </div>
           <div className="w-full px-4 md:w-1/2">
@@ -59,15 +50,7 @@ const CardCategorias = ({ backgroundImage, title }) => {
             </Link>
 
 
-            <Card
-                nombre="Artículos" // Ajustamos el nombre para la segunda tarjeta
-                imagen={fondologin} // Usamos la variable Articulos para la imagen
-              />
-
-                 <Card
-                nombre="Artículos" // Ajustamos el nombre para la segunda tarjeta
-                imagen={fondologin} // Usamos la variable Articulos para la imagen
-              />
+           
 
           </div>
         </div>

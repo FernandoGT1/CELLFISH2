@@ -23,10 +23,7 @@ export default function Login() {
               <input className='rounded-lg bg-yellow-50 mt-2 p-2 focus:border-[#ffe4b8]  focus:outline-none' type="password" />
             </div>
 
-            <div className='flex justify-between  text-black py-2'>
-              <p>Olvidé mi contraseña</p>
-            </div>
-
+            
 
 
             <button className='w-full my-5 py-2 bg-yellow-50 rounded-lg'>Entrar</button>
